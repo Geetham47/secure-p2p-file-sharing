@@ -1,7 +1,9 @@
 import { io } from "socket.io-client";
 import { useEffect, useRef, useState } from "react";
 
-const socket = io("http://localhost:3000");
+const socket = io(
+  "https://YOUR-RENDER-URL.onrender.com"
+);
 
 function App() {
   const [roomId, setRoomId] = useState("");
