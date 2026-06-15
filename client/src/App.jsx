@@ -2,7 +2,7 @@ import { io } from "socket.io-client";
 import { useEffect, useRef, useState } from "react";
 
 const socket = io(
-  "https://YOUR-RENDER-URL.onrender.com"
+  "https://https://secure-p2p-file-sharing.vercel.app/"
 );
 
 function App() {
